@@ -1,0 +1,48 @@
+{
+  "_id": "page.respondent-confirmation",
+  "_type": "page.form",
+  "body": "I confirm that the information supplied in this application is truthful and\r\naccurate to the best of my knowledge.",
+  "components": [
+    {
+      "_id": "page.respondent-confirmation--radios.auto_name__4",
+      "_type": "radios",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.respondent-confirmation--radios.auto_name__4--radio.auto_value__4",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "auto_value__4"
+        },
+        {
+          "_id": "page.respondent-confirmation--radios.auto_name__4--radio.auto_value__3",
+          "_type": "radio",
+          "label": "No, I want to [amend this application](/)",
+          "value": "auto_value__3"
+        }
+      ],
+      "name": "auto_name__4"
+    },
+    {
+      "_id": "page.respondent-confirmation--text.auto_name__3",
+      "_type": "text",
+      "label": "Your full name",
+      "name": "auto_name__3"
+    },
+    {
+      "_id": "page.respondent-confirmation--date.auto_name__5",
+      "_type": "date",
+      "label": "Date",
+      "name": "auto_name__5"
+    }
+  ],
+  "heading": "Confirmation",
+  "show": {
+    "identifier": "statement_of_truth",
+    "operator": "is",
+    "value": "auto_value__3"
+  },
+  "url": "/respondent-confirmation"
+}

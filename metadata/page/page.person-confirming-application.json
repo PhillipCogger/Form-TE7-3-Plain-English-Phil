@@ -1,0 +1,52 @@
+{
+  "_id": "page.person-confirming-application",
+  "_type": "page.form",
+  "body": "If you are signing on behalf of the respondent, are you:",
+  "components": [
+    {
+      "_id": "page.person-confirming-application--radios.auto_name__3",
+      "_type": "radios",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.person-confirming-application--radios.auto_name__3--radio.auto_value__5",
+          "_type": "radio",
+          "label": "an officer of the company",
+          "value": "auto_value__5"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.person-confirming-application--radios.auto_name__3--radio.auto_value__6",
+          "_type": "radio",
+          "label": "a partner of the firm",
+          "value": "auto_value__6"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.person-confirming-application--radios.auto_name__3--radio.auto_value__7",
+          "_type": "radio",
+          "label": "a litigation friend",
+          "value": "auto_value__7"
+        }
+      ],
+      "name": "person_applying_on_behalf_of_respondent"
+    }
+  ],
+  "enableSteps": true,
+  "heading": "Person applying on behalf of the respondent",
+  "show": {
+    "identifier": "statement_of_truth",
+    "operator": "is",
+    "value": "auto_value__4"
+  },
+  "steps": [
+    "page.confirmation-on-behalf-of-respondent"
+  ],
+  "url": "/person-confirming-application"
+}
