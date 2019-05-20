@@ -1,7 +1,7 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "You must apply to file this statement by the date on the Order for recovery (form TE3).",
+  "body": "Apply to ask for more time to challenge an unpaid parking penalty charge.\r\n  \r\nYou must apply to file this statement by the date on the Order for recovery (form TE3).",
   "components": [
     {
       "$component": true,
@@ -9,7 +9,7 @@
       "$definition": true,
       "_id": "page.start--content--2",
       "_type": "content",
-      "html": "### Before you start\r\n\r\nTo complete this form, you'll need to have the:\r\n\r\n* completed Form TE3: Order for recovery of unpaid penalty charge\r\n* penalty charge number\r\n* vehicle registration number"
+      "html": "### Before you start\r\n\r\nTo apply, you'll need to have the completed [Form TE3: Order for recovery of unpaid penalty charge](https://www.gov.uk/government/publications/form-te3-order-for-recovery-of-unpaid-penalty-charge-parking)."
     },
     {
       "$component": true,
@@ -27,8 +27,7 @@
       "html": "Find out [how HM Courts and Tribunals Service uses personal information](https://www.gov.uk/government/organisations/hm-courts-and-tribunals-service/about/personal-information-charter)."
     }
   ],
-  "heading": "Form TE7: Ask for more time to challenge a parking fine",
-  "lede": "Use this form to apply to file a statement out of time/extension of time for an unpaid parking penalty charge.",
+  "heading": "Form TE7: Ask for more time to challenge an unpaid parking penalty charge",
   "steps": [
     "page.penalty-charge-details",
     "page.your-details",
