@@ -10,7 +10,7 @@
       "_id": "page.your-details--text.auto_name__1",
       "_type": "text",
       "label": "Full name",
-      "name": "full_name"
+      "name": "respondent_full_name"
     },
     {
       "$component": true,
@@ -28,7 +28,7 @@
       "_id": "page.your-details--text.auto_name__2",
       "_type": "text",
       "label": "Building and street",
-      "name": "building",
+      "name": "respondent_building_and_street",
       "widthClassInput": "30"
     },
     {
@@ -47,7 +47,7 @@
       "_id": "page.your-details--text.auto_name__1--3",
       "_type": "text",
       "label": "Town or city",
-      "name": "town_or_city",
+      "name": "respondent_town_or_city",
       "widthClassInput": "two-thirds"
     },
     {
@@ -58,7 +58,7 @@
       "_id": "page.your-details--text.auto_name__2--2",
       "_type": "text",
       "label": "County",
-      "name": "county",
+      "name": "respondent_county",
       "validation": {
         "required": false
       },
@@ -72,7 +72,7 @@
       "_id": "page.your-details--text.auto_name__1--4",
       "_type": "text",
       "label": "Postcode",
-      "name": "postcode",
+      "name": "respondent_postcode",
       "widthClassInput": "one-third"
     }
   ],
