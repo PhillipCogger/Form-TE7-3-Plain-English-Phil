@@ -11,9 +11,9 @@
     }
   ],
   "show": {
-    "identifier": "auto_name__9",
+    "identifier": "applicant_contact_preference",
     "operator": "is",
-    "value": "auto_value__9"
+    "value": "contact_preference_phone"
   },
   "url": "your-phone-number"
 }

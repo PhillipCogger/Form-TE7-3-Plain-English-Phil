@@ -37,9 +37,9 @@
   ],
   "heading": "Confirmation on behalf of the respondent",
   "show": {
-    "identifier": "statement_of_truth",
+    "identifier": "select_myself_or_on_behalf_of_respondent",
     "operator": "is",
-    "value": "auto_value__4"
+    "value": "completing_form_on_behalf_of_respondent"
   },
   "url": "confirmation-on-behalf-of-respondent"
 }

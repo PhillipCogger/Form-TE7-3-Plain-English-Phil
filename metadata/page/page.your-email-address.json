@@ -11,9 +11,9 @@
     }
   ],
   "show": {
-    "identifier": "auto_name__9",
+    "identifier": "applicant_contact_preference",
     "operator": "is",
-    "value": "auto_value__8"
+    "value": "contact_preference_email"
   },
   "url": "your-email-address"
 }

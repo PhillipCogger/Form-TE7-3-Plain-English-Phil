@@ -10,16 +10,17 @@
           "_id": "page.statement-of-truth--radios.auto_name__3--radio.auto_value__3",
           "_type": "radio",
           "label": "Myself",
-          "value": "auto_value__3"
+          "value": "respondent_completing_form"
         },
         {
           "_id": "page.statement-of-truth--radios.auto_name__3--radio.auto_value__4",
           "_type": "radio",
           "label": "On behalf of the respondent",
-          "value": "auto_value__4"
+          "value": "completing_form_on_behalf_of_respondent"
         }
       ],
-      "name": "statement_of_truth"
+      "legend": "Select one option.",
+      "name": "select_myself_or_on_behalf_of_respondent"
     }
   ],
   "enableSteps": true,

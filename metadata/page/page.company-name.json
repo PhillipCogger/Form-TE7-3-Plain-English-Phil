@@ -5,14 +5,15 @@
     {
       "_id": "page.company-name--text.auto_name__2",
       "_type": "text",
-      "name": "auto_name__2"
+      "label": "What is the name of the company?",
+      "name": "name_of_the_company"
     }
   ],
   "heading": "Company name",
   "show": {
-    "identifier": "owned_registered_by_company",
+    "identifier": "is_the_vehicle_owned_and_registered_by_a_company",
     "operator": "is",
-    "value": "auto_value__10"
+    "value": "owned_by_company_yes"
   },
   "url": "/company-name"
 }

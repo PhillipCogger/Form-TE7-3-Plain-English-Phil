@@ -6,14 +6,14 @@
       "_id": "page.reason-for-filing-outside-of-time--textarea.auto_name__1",
       "_type": "textarea",
       "label": "Give reasons why you are filing outside the given time",
-      "name": "out_of_time_reason"
+      "name": "outside_the_given_time_reason"
     }
   ],
   "heading": "Why are you outside the given time?",
   "show": {
-    "identifier": "out_of_time_or_need_more_time",
+    "identifier": "are_you_out_of_time_or_need_more_time",
     "operator": "is",
-    "value": "auto_value__1"
+    "value": "out_of_time"
   },
   "url": "/reason-for-filing-outside-the-given-time"
 }

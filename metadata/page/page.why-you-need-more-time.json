@@ -6,14 +6,14 @@
       "_id": "page.why-you-need-more-time--textarea.auto_name__1",
       "_type": "textarea",
       "label": "Give reasons why you are filing for more time",
-      "name": "auto_name__1"
+      "name": "filing_for_more_time_reason"
     }
   ],
   "heading": "Why do you need more time?",
   "show": {
-    "identifier": "out_of_time_or_need_more_time",
+    "identifier": "are_you_out_of_time_or_need_more_time",
     "operator": "is",
-    "value": "auto_value__2"
+    "value": "need_more_time"
   },
   "url": "why-you-need-more-time"
 }
